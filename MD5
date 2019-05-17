@@ -1,0 +1,14 @@
+9a38f7e048b0437f6d2356c507c8bf5c *DESCRIPTION
+780ef7724782fea3827bd9de0e9bfa19 *NAMESPACE
+32f582cebc0a4b642c8d53f8e7af62c6 *R/read.R
+a489c98b9f6327e4fae251588b5907f9 *R/utils.R
+b90ab4bfc03fd5f84e3998983af65e21 *R/write.R
+5b17ddcdb8e6b055952ee368a1df0f69 *README.md
+480e158020c22d923d7ca0320bfbe138 *man/display.Rd
+c93429522d2829aafb0dcda3bb92068b *man/read.arff.Rd
+1b36e1269756d3ec1bed4a9c67e515fe *man/utils.Rd
+cc6da51a0815439ec57ba391b6435552 *man/write.arff.Rd
+9a292857e4d5609af5cc0c52df9acf7b *tests/testthat.R
+47f92923804bb34bc80cd473a95cf4c8 *tests/testthat/test-attributes.R
+8e9e9b13e6cab51ddb7ef51abb0676ed *tests/testthat/test-idempotence.R
+dc26783edb25aa4991b55294c6a6883d *tests/testthat/test-sparse-defaults.R
