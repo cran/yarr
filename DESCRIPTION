@@ -1,7 +1,7 @@
 Package: yarr
 Type: Package
 Title: Yet Another 'ARFF' Reader
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(person("David", "Charte", email = "fdavidcl@ugr.es", role = c("aut", "cre"),
     comment = c(ORCID = "0000-0002-4830-9512")), person("Francisco", "Charte", 
     email = "francisco@fcharte.com", role = "aut", comment = c(ORCID = "0000-0002-3083-8942")))
@@ -21,9 +21,9 @@ Depends: R (>= 3.6)
 Suggests: testthat (>= 2.1.0)
 RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2019-05-16 18:18:28 UTC; fdavidcl
+Packaged: 2019-08-10 12:11:28 UTC; fdavidcl
 Author: David Charte [aut, cre] (<https://orcid.org/0000-0002-4830-9512>),
   Francisco Charte [aut] (<https://orcid.org/0000-0002-3083-8942>)
 Maintainer: David Charte <fdavidcl@ugr.es>
 Repository: CRAN
-Date/Publication: 2019-05-17 07:20:04 UTC
+Date/Publication: 2019-08-10 12:20:02 UTC

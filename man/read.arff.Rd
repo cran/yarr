@@ -4,13 +4,13 @@
 \alias{read.arff}
 \title{Read an ARFF file}
 \usage{
-read.arff(file, stringsAsFactors = default.stringsAsFactors())
+read.arff(file, stringsAsFactors = FALSE)
 }
 \arguments{
 \item{file}{Name of the file to read the data from}
 
-\item{stringsAsFactors}{Logical: should categorical attributes be converted to
-factors?}
+\item{stringsAsFactors}{Logical: should string attributes be converted to
+factors? (nominal attributes are always converted to factors)}
 }
 \value{
 A \code{data.frame} with some attributes:
@@ -18,6 +18,9 @@ A \code{data.frame} with some attributes:
 \item attributes: a named vector indicating the type of each variable
 \item relation: the original \code{@relation} of the dataset
 }
+
+Use \code{attr.names()}, \code{attr.types()} and \code{relation()} to consult attribute
+names, types and the name of the dataset, respectively.
 }
 \description{
 Reads a dataset from an ARFF file, parsing each section and
